@@ -1,10 +1,11 @@
 import { component$ } from '@builder.io/qwik'
 
 export const App = component$(() => {
-  console.log('App')
+  console.log('Mini Qwik - App')
   return (
     <>
-      Mini Qwik - <button onClick$={() => console.log('Hello')}>Click</button>
+      <p>Mini Qwik - Loader</p>
+      <button onClick$={() => console.log('Hello')}>Click</button>
     </>
   )
 })
