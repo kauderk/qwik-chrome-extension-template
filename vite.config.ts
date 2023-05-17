@@ -1,13 +1,13 @@
-import { defineConfig } from 'vite';
-import { qwikVite } from '@builder.io/qwik/optimizer';
-import { dirname, resolve } from 'path';
-import { writeFile, mkdir } from 'fs/promises';
+import { defineConfig } from 'vite'
+import { qwikVite } from '@builder.io/qwik/optimizer'
+import { dirname, resolve } from 'path'
+import { writeFile, mkdir } from 'fs/promises'
 
 export default defineConfig(({ mode }) => {
   return {
     build: {
       rollupOptions: {
-        input: ['src/main.tsx', 'index.html'],
+        input: ['./index.html'],
         output: {
           // Qwik tends to generate long chunk names
           chunkFileNames: 'q-[hash].js',
@@ -24,14 +24,14 @@ export default defineConfig(({ mode }) => {
           type: 'single',
         },
         symbolsOutput: (data) => {
-          outputJSON('./server/q-symbols.json', data);
+          outputJSON('./server/q-symbols.json', data)
         },
       }),
     ],
-  };
-});
+  }
+})
 
 async function outputJSON(path: string, data: any) {
-  await mkdir(dirname(path), { recursive: true });
-  await writeFile(path, JSON.stringify(data, null, 2));
+  await mkdir(dirname(path), { recursive: true })
+  await writeFile(path, JSON.stringify(data, null, 2))
 }

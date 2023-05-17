@@ -4,7 +4,7 @@
   "description": "Qwik implementation of TodoMVC: https://todomvc.com/. Vite.js tooling. Express.js server.",
   "scripts": {
     "build": "npm run typecheck && npm run build.client && npm run build.server",
-    "build.client": "vite build --outDir server/public",
+    "build.client": "vite build",
     "build.server": "vite build --outDir server/build --ssr src/entry.express.tsx",
     "dev": "npm run dev.client",
     "dev.client": "vite --mode clientonly",
