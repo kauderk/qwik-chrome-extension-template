@@ -1,0 +1,30 @@
+{
+  "name": "qwik-app",
+  "version": "0.0.0",
+  "description": "Qwik implementation of TodoMVC: https://todomvc.com/. Vite.js tooling. Express.js server.",
+  "scripts": {
+    "build": "npm run typecheck && npm run build.client && npm run build.server",
+    "build.client": "vite build --outDir server/public",
+    "build.server": "vite build --outDir server/build --ssr src/entry.express.tsx",
+    "dev": "npm run dev.client",
+    "dev.client": "vite --mode clientonly",
+    "dev.debug": "node --inspect-brk node_modules/vite/bin/vite.js",
+    "dev.ssr": "vite",
+    "serve": "node server/build/entry.express.js",
+    "start": "npm run dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@builder.io/qwik": "0.0.18",
+    "@types/express": "4.17.13",
+    "@types/node": "17.0.17",
+    "express": "4.17.2",
+    "typescript": "4.5.5",
+    "vite": "2.8.6"
+  },
+  "author": "Builder.io Team",
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
