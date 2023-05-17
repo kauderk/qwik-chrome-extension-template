@@ -1,4 +1,4 @@
 import { render, jsx } from '@builder.io/qwik'
-import { Main } from './main'
+import { App } from './App'
 
-render(document.body, jsx(Main, {}))
+render(document.body, jsx(App, {}))

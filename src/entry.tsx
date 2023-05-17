@@ -3,7 +3,7 @@ import {
   type RenderToStringOptions,
   QwikLoader,
 } from '@builder.io/qwik/server'
-import { Main } from './main'
+import { App } from './App'
 
 export function render(opts: RenderToStringOptions) {
   return renderToString(
@@ -13,7 +13,7 @@ export function render(opts: RenderToStringOptions) {
         <title>Mini Qwik Loader</title>
       </head>
       <body>
-        <Main />
+        <App />
         <QwikLoader debug={opts.debug} />
       </body>
     </html>,
