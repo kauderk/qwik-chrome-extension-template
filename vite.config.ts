@@ -20,6 +20,9 @@ export default defineConfig(() => {
         client: {
           input: ['./src/root.tsx'],
         },
+        ssr: {
+          input: './src/entry.ssr.tsx',
+        },
       }),
     ],
   }

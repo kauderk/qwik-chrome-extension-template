@@ -2,7 +2,8 @@
   "name": "mini-qwik-loader",
   "version": "0.0.0",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "dev": "vite --mode ssr"
   },
   "devDependencies": {
     "@builder.io/qwik": "1.0.0",
