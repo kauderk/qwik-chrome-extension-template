@@ -22,27 +22,50 @@
     }
   },
   "mapping": {
-    "s_LA2edZ4Pv48": "q-df22ab0c.js",
+    "s_LA2edZ4Pv48": "q-fda432b4.js",
     "s_AqU6wfwS0uY": "q-eb321659.js"
   },
   "bundles": {
-    "q-6c030969.js": {
-      "size": 43149,
+    "q-22f3d34b.js": {
+      "size": 40123,
       "dynamicImports": [
-        "q-df22ab0c.js"
+        "q-fda432b4.js"
       ],
       "origins": [
-        "index.html",
         "node_modules/@builder.io/qwik/core.min.mjs",
-        "node_modules/@builder.io/qwik/loader/index.mjs",
-        "src/entry.client.ts",
         "src/root.tsx"
       ]
     },
-    "q-df22ab0c.js": {
+    "q-5b74d4fb.js": {
+      "size": 58,
+      "imports": [
+        "q-22f3d34b.js"
+      ]
+    },
+    "q-d92122dc.js": {
+      "size": 2097,
+      "imports": [
+        "q-22f3d34b.js"
+      ],
+      "origins": [
+        "index.html",
+        "src/entry.client.ts",
+        "src/qwikloader.ts"
+      ]
+    },
+    "q-eb321659.js": {
+      "size": 59,
+      "origins": [
+        "src/s_aqu6wfws0uy.js"
+      ],
+      "symbols": [
+        "s_AqU6wfwS0uY"
+      ]
+    },
+    "q-fda432b4.js": {
       "size": 311,
       "imports": [
-        "q-6c030969.js"
+        "q-22f3d34b.js"
       ],
       "dynamicImports": [
         "q-eb321659.js"
@@ -53,15 +76,6 @@
       ],
       "symbols": [
         "s_LA2edZ4Pv48"
-      ]
-    },
-    "q-eb321659.js": {
-      "size": 59,
-      "origins": [
-        "src/s_aqu6wfws0uy.js"
-      ],
-      "symbols": [
-        "s_AqU6wfwS0uY"
       ]
     }
   },
