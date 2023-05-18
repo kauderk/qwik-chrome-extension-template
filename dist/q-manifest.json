@@ -1,75 +1,67 @@
 {
   "symbols": {
-    "s_K2sd0sH7Unw": {
+    "s_LA2edZ4Pv48": {
       "origin": "root.tsx",
-      "displayName": "App_component",
-      "canonicalFilename": "s_k2sd0sh7unw",
-      "hash": "K2sd0sH7Unw",
+      "displayName": "root_component",
+      "canonicalFilename": "s_la2edz4pv48",
+      "hash": "LA2edZ4Pv48",
       "ctxKind": "function",
       "ctxName": "component$",
       "captures": false,
       "parent": null
     },
-    "s_qPaKceurQtA": {
+    "s_AqU6wfwS0uY": {
       "origin": "root.tsx",
-      "displayName": "App_component__Fragment_button_onClick",
-      "canonicalFilename": "s_qpakceurqta",
-      "hash": "qPaKceurQtA",
+      "displayName": "root_component__Fragment_button_onClick",
+      "canonicalFilename": "s_aqu6wfws0uy",
+      "hash": "AqU6wfwS0uY",
       "ctxKind": "eventHandler",
       "ctxName": "onClick$",
       "captures": false,
-      "parent": "s_K2sd0sH7Unw"
+      "parent": "s_LA2edZ4Pv48"
     }
   },
   "mapping": {
-    "s_K2sd0sH7Unw": "q-e77a7ea7.js",
-    "s_qPaKceurQtA": "q-b384ffb2.js"
+    "s_LA2edZ4Pv48": "q-df22ab0c.js",
+    "s_AqU6wfwS0uY": "q-eb321659.js"
   },
   "bundles": {
-    "q-0b23b1fa.js": {
-      "size": 2263,
+    "q-6c030969.js": {
+      "size": 43149,
+      "dynamicImports": [
+        "q-df22ab0c.js"
+      ],
       "origins": [
         "index.html",
-        "node_modules/@builder.io/qwik/loader/index.mjs",
-        "src/entry.client.ts"
-      ]
-    },
-    "q-47b8b787.js": {
-      "size": 55
-    },
-    "q-b384ffb2.js": {
-      "size": 59,
-      "origins": [
-        "src/s_qpakceurqta.js"
-      ],
-      "symbols": [
-        "s_qPaKceurQtA"
-      ]
-    },
-    "q-b4e2e09d.js": {
-      "size": 40123,
-      "dynamicImports": [
-        "q-e77a7ea7.js"
-      ],
-      "origins": [
         "node_modules/@builder.io/qwik/core.min.mjs",
+        "node_modules/@builder.io/qwik/loader/index.mjs",
+        "src/entry.client.ts",
         "src/root.tsx"
       ]
     },
-    "q-e77a7ea7.js": {
+    "q-df22ab0c.js": {
       "size": 311,
       "imports": [
-        "q-b4e2e09d.js"
+        "q-6c030969.js"
       ],
       "dynamicImports": [
-        "q-b384ffb2.js"
+        "q-eb321659.js"
       ],
       "origins": [
-        "src/entry_App.js",
-        "src/s_k2sd0sh7unw.js"
+        "src/entry_root.js",
+        "src/s_la2edz4pv48.js"
       ],
       "symbols": [
-        "s_K2sd0sH7Unw"
+        "s_LA2edZ4Pv48"
+      ]
+    },
+    "q-eb321659.js": {
+      "size": 59,
+      "origins": [
+        "src/s_aqu6wfws0uy.js"
+      ],
+      "symbols": [
+        "s_AqU6wfwS0uY"
       ]
     }
   },
