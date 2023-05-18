@@ -1,7 +1,6 @@
 .cache
 .rollup.cache
 build
-dist
 node_modules
 tsconfig.tsbuildinfo
 q-symbols.json
@@ -16,7 +15,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
 dist-ssr
 *.local
 

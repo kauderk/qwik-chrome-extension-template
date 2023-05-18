@@ -1,0 +1,94 @@
+{
+  "symbols": {
+    "s_K2sd0sH7Unw": {
+      "origin": "root.tsx",
+      "displayName": "App_component",
+      "canonicalFilename": "s_k2sd0sh7unw",
+      "hash": "K2sd0sH7Unw",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
+    "s_qPaKceurQtA": {
+      "origin": "root.tsx",
+      "displayName": "App_component__Fragment_button_onClick",
+      "canonicalFilename": "s_qpakceurqta",
+      "hash": "qPaKceurQtA",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": false,
+      "parent": "s_K2sd0sH7Unw"
+    }
+  },
+  "mapping": {
+    "s_K2sd0sH7Unw": "q-e77a7ea7.js",
+    "s_qPaKceurQtA": "q-b384ffb2.js"
+  },
+  "bundles": {
+    "q-0b23b1fa.js": {
+      "size": 2263,
+      "origins": [
+        "index.html",
+        "node_modules/@builder.io/qwik/loader/index.mjs",
+        "src/entry.client.ts"
+      ]
+    },
+    "q-47b8b787.js": {
+      "size": 55
+    },
+    "q-b384ffb2.js": {
+      "size": 59,
+      "origins": [
+        "src/s_qpakceurqta.js"
+      ],
+      "symbols": [
+        "s_qPaKceurQtA"
+      ]
+    },
+    "q-b4e2e09d.js": {
+      "size": 40123,
+      "dynamicImports": [
+        "q-e77a7ea7.js"
+      ],
+      "origins": [
+        "node_modules/@builder.io/qwik/core.min.mjs",
+        "src/root.tsx"
+      ]
+    },
+    "q-e77a7ea7.js": {
+      "size": 311,
+      "imports": [
+        "q-b4e2e09d.js"
+      ],
+      "dynamicImports": [
+        "q-b384ffb2.js"
+      ],
+      "origins": [
+        "src/entry_App.js",
+        "src/s_k2sd0sh7unw.js"
+      ],
+      "symbols": [
+        "s_K2sd0sH7Unw"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "forceFullBuild": true,
+    "entryStrategy": {
+      "type": "smart"
+    }
+  },
+  "platform": {
+    "qwik": "1.0.0",
+    "vite": "",
+    "rollup": "3.22.0",
+    "env": "node",
+    "os": "win32",
+    "node": "18.16.0"
+  }
+}

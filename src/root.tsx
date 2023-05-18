@@ -5,7 +5,7 @@ export const App = component$(() => {
   return (
     <>
       <p>Mini Qwik - Loader</p>
-      <button onClick$={() => console.log('Hello')}>Click</button>
+      <button onClick$={() => alert('mini-qwik')}>Click</button>
     </>
   )
 })
