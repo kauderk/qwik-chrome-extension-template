@@ -17,6 +17,9 @@ export default defineConfig(() => {
     plugins: [
       qwikVite({
         srcDir: resolve('./src'),
+        client: {
+          input: ['./src/root.tsx'],
+        },
       }),
     ],
   }
