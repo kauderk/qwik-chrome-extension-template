@@ -1,7 +1,7 @@
 import type { RenderToStreamOptions } from '@builder.io/qwik/server'
 import { renderToStream } from '@builder.io/qwik/server'
 import { manifest } from '@qwik-client-manifest'
-import Root from './root'
+import Options from './options/Options'
 
 export default function (opts: RenderToStreamOptions) {
   return renderToStream(
@@ -10,7 +10,7 @@ export default function (opts: RenderToStreamOptions) {
         <title>Mini Qwik - Loader</title>
       </head>
       <body>
-        <Root />
+        <Options />
       </body>
     </body>,
     {

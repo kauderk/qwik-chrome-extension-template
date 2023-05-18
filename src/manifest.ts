@@ -11,5 +11,5 @@ export default defineManifest({
     48: 'img/logo-48.png',
     128: 'img/logo-128.png',
   },
-  options_page: 'index.html',
+  options_page: 'src/options/index.html',
 })

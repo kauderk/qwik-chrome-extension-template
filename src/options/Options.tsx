@@ -1,7 +1,7 @@
 import { component$ } from '@builder.io/qwik'
 
 export default component$(() => {
-  console.log('Mini Qwik - App')
+  console.log('mini-qwik-loader app')
   return (
     <>
       <p>Mini Qwik - Loader</p>

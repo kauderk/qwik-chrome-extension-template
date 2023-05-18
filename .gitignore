@@ -3,6 +3,8 @@
 node_modules
 tsconfig.tsbuildinfo
 q-symbols.json
+server
+dist
 
 # Logs
 logs

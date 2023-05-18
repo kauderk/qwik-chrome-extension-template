@@ -8,16 +8,21 @@ import manifest from './src/manifest.jsx'
 export default defineConfig(() => {
   return {
     plugins: [
-      crx({ manifest }),
       qwikVite({
         srcDir: resolve('./src'),
         client: {
-          input: undefined,
+          input: './src/shared/root.tsx',
         },
         ssr: {
           input: './src/entry.ssr.tsx',
         },
       }),
+      crx({ manifest }),
     ],
+    resolve: {
+      alias: {
+        src: resolve('./src'),
+      },
+    },
   }
 })
