@@ -12,6 +12,10 @@ export default defineManifest({
     128: 'img/logo-128.png',
   },
   options_page: 'src/options/index.html',
+  action: {
+    default_popup: 'src/options/index.html',
+    default_icon: 'img/logo-48.png',
+  },
   content_scripts: [
     {
       matches: ['http://*/*', 'https://*/*'],
