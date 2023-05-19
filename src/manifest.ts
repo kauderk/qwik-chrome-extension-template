@@ -12,4 +12,10 @@ export default defineManifest({
     128: 'img/logo-128.png',
   },
   options_page: 'src/options/index.html',
+  content_scripts: [
+    {
+      matches: ['http://*/*', 'https://*/*'],
+      js: ['src/content/render.ts'],
+    },
+  ],
 })
