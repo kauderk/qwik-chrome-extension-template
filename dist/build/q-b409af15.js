@@ -1,0 +1,1 @@
+import{N as o,A as l,B as r,z as i,_ as n}from"./q-e907c023.js";const t=()=>(console.log("mini-qwik-loader app"),o(r,{children:[l("p",null,null,"Mini Qwik - Loader",3,null),l("button",null,{onClick$:i(()=>n(()=>import("./q-2f14a039.js"),[]),"s_0m507vJxRms")},"Click",3,null)]},3,"Ad_0"));export{t as s_ofLQtuhauOo};

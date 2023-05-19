@@ -1,0 +1,173 @@
+{
+  "symbols": {
+    "s_AX0ExCoDW0g": {
+      "origin": "content/Content.tsx",
+      "displayName": "Content_component",
+      "canonicalFilename": "s_ax0excodw0g",
+      "hash": "AX0ExCoDW0g",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
+    "s_ofLQtuhauOo": {
+      "origin": "options/Options.tsx",
+      "displayName": "Options_component",
+      "canonicalFilename": "s_oflqtuhauoo",
+      "hash": "ofLQtuhauOo",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
+    "s_0m507vJxRms": {
+      "origin": "options/Options.tsx",
+      "displayName": "Options_component__Fragment_button_onClick",
+      "canonicalFilename": "s_0m507vjxrms",
+      "hash": "0m507vJxRms",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": false,
+      "parent": "s_ofLQtuhauOo"
+    },
+    "s_4mCkH9BYmYc": {
+      "origin": "content/Content.tsx",
+      "displayName": "Content_component_main_button_onClick",
+      "canonicalFilename": "s_4mckh9bymyc",
+      "hash": "4mCkH9BYmYc",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": false,
+      "parent": "s_AX0ExCoDW0g"
+    },
+    "s_VKy92tvMtAI": {
+      "origin": "content/Content.tsx",
+      "displayName": "Content_component_useStylesScoped",
+      "canonicalFilename": "s_vky92tvmtai",
+      "hash": "VKy92tvMtAI",
+      "ctxKind": "function",
+      "ctxName": "useStylesScoped$",
+      "captures": false,
+      "parent": "s_AX0ExCoDW0g"
+    }
+  },
+  "mapping": {
+    "s_AX0ExCoDW0g": "q-74ec4f98.js",
+    "s_ofLQtuhauOo": "q-b409af15.js",
+    "s_0m507vJxRms": "q-2f14a039.js",
+    "s_4mCkH9BYmYc": "q-75de7276.js",
+    "s_VKy92tvMtAI": "q-74ec4f98.js"
+  },
+  "bundles": {
+    "q-2f14a039.js": {
+      "size": 59,
+      "origins": [
+        "src/s_0m507vjxrms.js"
+      ],
+      "symbols": [
+        "s_0m507vJxRms"
+      ]
+    },
+    "q-4ed993c7.js": {
+      "size": 1,
+      "origins": [
+        "src/shared/root.tsx"
+      ]
+    },
+    "q-57c9eb5c.js": {
+      "size": 176,
+      "imports": [
+        "q-e907c023.js"
+      ],
+      "dynamicImports": [
+        "q-b409af15.js"
+      ],
+      "origins": [
+        "src/options/Options.tsx",
+        "src/options/index.html",
+        "src/options/render.ts"
+      ]
+    },
+    "q-74ec4f98.js": {
+      "size": 1253,
+      "imports": [
+        "q-e907c023.js"
+      ],
+      "dynamicImports": [
+        "q-75de7276.js"
+      ],
+      "origins": [
+        "src/entry_Content.js",
+        "src/s_ax0excodw0g.js",
+        "src/s_vky92tvmtai.js"
+      ],
+      "symbols": [
+        "s_AX0ExCoDW0g",
+        "s_VKy92tvMtAI"
+      ]
+    },
+    "q-75de7276.js": {
+      "size": 76,
+      "origins": [
+        "src/s_4mckh9bymyc.js"
+      ],
+      "symbols": [
+        "s_4mCkH9BYmYc"
+      ]
+    },
+    "q-a4416d7c.js": {
+      "size": 469,
+      "imports": [
+        "q-e907c023.js"
+      ],
+      "dynamicImports": [
+        "q-74ec4f98.js"
+      ],
+      "origins": [
+        "src/content/Content.tsx",
+        "src/content/render.ts"
+      ]
+    },
+    "q-b409af15.js": {
+      "size": 316,
+      "imports": [
+        "q-e907c023.js"
+      ],
+      "dynamicImports": [
+        "q-2f14a039.js"
+      ],
+      "origins": [
+        "src/entry_Options.js",
+        "src/s_oflqtuhauoo.js"
+      ],
+      "symbols": [
+        "s_ofLQtuhauOo"
+      ]
+    },
+    "q-e907c023.js": {
+      "size": 45073,
+      "origins": [
+        "node_modules/.pnpm/@builder.io+qwik@1.0.0_undici@5.22.1/node_modules/@builder.io/qwik/core.min.mjs",
+        "src/shared/render.ts"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "forceFullBuild": true,
+    "entryStrategy": {
+      "type": "smart"
+    }
+  },
+  "platform": {
+    "qwik": "1.0.0",
+    "vite": "",
+    "rollup": "3.22.0",
+    "env": "node",
+    "os": "win32",
+    "node": "18.16.0"
+  }
+}

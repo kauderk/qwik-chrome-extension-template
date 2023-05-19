@@ -1,0 +1,43 @@
+{
+  "name": "create-chrome-ext",
+  "description": "",
+  "version": "0.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "img/logo-16.png",
+    "32": "img/logo-34.png",
+    "48": "img/logo-48.png",
+    "128": "img/logo-128.png"
+  },
+  "options_page": "src/options/index.html",
+  "action": {
+    "default_popup": "src/options/index.html",
+    "default_icon": "img/logo-48.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "build/q-fd50aacc.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "resources": [
+        "build/q-74ec4f98.js",
+        "build/q-75de7276.js",
+        "build/q-e907c023.js",
+        "build/q-a4416d7c.js"
+      ],
+      "use_dynamic_url": true
+    }
+  ]
+}
