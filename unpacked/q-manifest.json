@@ -1,0 +1,203 @@
+{
+  "manifestHash": "7337rm",
+  "symbols": {
+    "s_AX0ExCoDW0g": {
+      "origin": "content/Content.tsx",
+      "displayName": "Content_component",
+      "canonicalFilename": "s_ax0excodw0g",
+      "hash": "AX0ExCoDW0g",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        94,
+        1124
+      ]
+    },
+    "s_ofLQtuhauOo": {
+      "origin": "options/Options.tsx",
+      "displayName": "Options_component",
+      "canonicalFilename": "s_oflqtuhauoo",
+      "hash": "ofLQtuhauOo",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        76,
+        258
+      ]
+    },
+    "s_0m507vJxRms": {
+      "origin": "options/Options.tsx",
+      "displayName": "Options_component__Fragment_button_onClick",
+      "canonicalFilename": "s_0m507vjxrms",
+      "hash": "0m507vJxRms",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": false,
+      "parent": "s_ofLQtuhauOo",
+      "loc": [
+        201,
+        225
+      ]
+    },
+    "s_4mCkH9BYmYc": {
+      "origin": "content/Content.tsx",
+      "displayName": "Content_component_main_button_onClick",
+      "canonicalFilename": "s_4mckh9bymyc",
+      "hash": "4mCkH9BYmYc",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": false,
+      "parent": "s_AX0ExCoDW0g",
+      "loc": [
+        910,
+        951
+      ]
+    },
+    "s_VKy92tvMtAI": {
+      "origin": "content/Content.tsx",
+      "displayName": "Content_component_useStylesScoped",
+      "canonicalFilename": "s_vky92tvmtai",
+      "hash": "VKy92tvMtAI",
+      "ctxKind": "function",
+      "ctxName": "useStylesScoped$",
+      "captures": false,
+      "parent": "s_AX0ExCoDW0g",
+      "loc": [
+        122,
+        764
+      ]
+    }
+  },
+  "mapping": {
+    "s_AX0ExCoDW0g": "q-4c1fbb4a.js",
+    "s_ofLQtuhauOo": "q-42e945bb.js",
+    "s_0m507vJxRms": "q-2f14a039.js",
+    "s_4mCkH9BYmYc": "q-75de7276.js",
+    "s_VKy92tvMtAI": "q-4c1fbb4a.js"
+  },
+  "bundles": {
+    "q-2f14a039.js": {
+      "size": 59,
+      "origins": [
+        "src/s_0m507vjxrms.js"
+      ],
+      "symbols": [
+        "s_0m507vJxRms"
+      ]
+    },
+    "q-42e945bb.js": {
+      "size": 316,
+      "imports": [
+        "q-e751f8de.js"
+      ],
+      "dynamicImports": [
+        "q-2f14a039.js"
+      ],
+      "origins": [
+        "src/entry_Options.js",
+        "src/s_oflqtuhauoo.js"
+      ],
+      "symbols": [
+        "s_ofLQtuhauOo"
+      ]
+    },
+    "q-4c1fbb4a.js": {
+      "size": 1253,
+      "imports": [
+        "q-e751f8de.js"
+      ],
+      "dynamicImports": [
+        "q-75de7276.js"
+      ],
+      "origins": [
+        "src/entry_Content.js",
+        "src/s_ax0excodw0g.js",
+        "src/s_vky92tvmtai.js"
+      ],
+      "symbols": [
+        "s_AX0ExCoDW0g",
+        "s_VKy92tvMtAI"
+      ]
+    },
+    "q-4ed993c7.js": {
+      "size": 1,
+      "origins": [
+        "src/shared/root.tsx"
+      ]
+    },
+    "q-75de7276.js": {
+      "size": 76,
+      "origins": [
+        "src/s_4mckh9bymyc.js"
+      ],
+      "symbols": [
+        "s_4mCkH9BYmYc"
+      ]
+    },
+    "q-952c8180.js": {
+      "size": 205,
+      "imports": [
+        "q-a61a39c1.js",
+        "q-e751f8de.js"
+      ],
+      "dynamicImports": [
+        "q-42e945bb.js"
+      ],
+      "origins": [
+        "src/options/Options.tsx",
+        "src/options/index.html",
+        "src/options/render.ts"
+      ]
+    },
+    "q-a61a39c1.js": {
+      "size": 2119,
+      "imports": [
+        "q-e751f8de.js"
+      ],
+      "origins": [
+        "src/shared/render.ts"
+      ]
+    },
+    "q-c54d1bb3.js": {
+      "size": 493,
+      "imports": [
+        "q-a61a39c1.js",
+        "q-e751f8de.js"
+      ],
+      "dynamicImports": [
+        "q-4c1fbb4a.js"
+      ],
+      "origins": [
+        "src/content/Content.tsx",
+        "src/content/render.ts"
+      ]
+    },
+    "q-e751f8de.js": {
+      "size": 46477,
+      "origins": [
+        "node_modules/.pnpm/@builder.io+qwik@1.2.18_undici@5.27.2/node_modules/@builder.io/qwik/core.min.mjs"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "smart"
+    }
+  },
+  "platform": {
+    "qwik": "1.2.18",
+    "vite": "",
+    "rollup": "3.29.4",
+    "env": "node",
+    "os": "win32",
+    "node": "21.2.0"
+  }
+}

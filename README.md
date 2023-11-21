@@ -4,13 +4,13 @@ This is a template for creating a Chrome extension using Qwik.
 
 ## use
 
-[dist](/dist) contains the built extension. To use it:
+[unpacked](/unpacked) contains the built extension. To use it:
 
 ```bash
 navigate to chrome://extensions
 enable developer mode
 click "Load unpacked"
-select the "dist" folder
+select the "unpacked" folder
 ```
 
 ## build
