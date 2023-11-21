@@ -5,14 +5,15 @@ import Options from './options/Options'
 
 export default function (opts: RenderToStreamOptions) {
   return renderToStream(
-    <body>
+    <>
       <head>
+        <link rel="icon" href="/icons/logo.ico" type="image/x-icon" />
         <title>Mini Qwik - Loader</title>
       </head>
       <body>
         <Options />
       </body>
-    </body>,
+    </>,
     {
       manifest,
       ...opts,

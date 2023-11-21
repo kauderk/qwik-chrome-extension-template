@@ -5,6 +5,8 @@ import { resolve } from 'path'
 import { crx } from '@crxjs/vite-plugin'
 import manifest from './src/manifest.jsx'
 
+const dev = process.env.NODE_ENV === 'development'
+
 export default defineConfig(() => {
   return {
     plugins: [
@@ -17,7 +19,7 @@ export default defineConfig(() => {
           input: './src/entry.ssr.tsx',
         },
       }),
-      crx({ manifest }),
+      !dev && crx({ manifest }),
     ],
     resolve: {
       alias: {
