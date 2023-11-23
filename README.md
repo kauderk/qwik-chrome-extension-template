@@ -24,9 +24,13 @@ npm run build
 ```bash
 npm run dev
 ```
+## More
+
+- [General Purpose Chrome Extension](https://github.com/kauderk/qwik-chrome-extension-template) - using the `@crxjs/vite-plugin`
+- [Options Page Chrome Extension](https://github.com/kauderk/qwik-chrome-extension-template/tree/options-page) - simple configuration
+- [Possible SSG Method](https://github.com/BuilderIO/qwik/issues/5148#issuecomment-1823960299)
 
 ## Known issues
 
 - The command `vite build --watch` flag throws `@vite/client not	found`, avoid that	flag
 - Qwik Apps don't know how to attach themselves to the Shadow DOM
-- There are some files throwing 404 when loading the content script
