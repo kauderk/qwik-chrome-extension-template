@@ -1,6 +1,6 @@
 # Qwik Chrome	Extension Template
 
-This is a template for creating a Chrome extension using Qwik.
+This is a template for creating a Chrome extension using Qwik. Specifically, for Options page.
 
 ## use
 
@@ -24,9 +24,3 @@ npm run build
 ```bash
 npm run dev
 ```
-
-## Known issues
-
-- The command `vite build --watch` flag throws `@vite/client not	found`, avoid that	flag
-- Qwik Apps don't know how to attach themselves to the Shadow DOM
-- There are some files throwing 404 when loading the content script

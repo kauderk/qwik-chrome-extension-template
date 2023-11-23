@@ -1,16 +1,17 @@
 {
   "name": "mini-qwik-loader",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite --mode ssr"
+    "dev": "vite",
+    "build": "tsc && vite build && node createManifest.js",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.2.18",
-    "@crxjs/vite-plugin": "^1.0.14",
-    "typescript": "5.3.2",
-    "undici": "^5.27.2",
-    "vite": "^4.4.11",
-    "vite-tsconfig-paths": "4.2.1"
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@builder.io/qwik": "^1.2.17"
   }
 }
